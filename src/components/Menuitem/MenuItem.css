@@ -7,7 +7,6 @@
 }
 
 .app__menuItem-head {
-  border: 1px solid white;
   display: flex;
   justify-content: space-between;
   align-items: center;

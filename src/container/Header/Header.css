@@ -3,11 +3,17 @@
 }
 
 .app__wrapper_info h1 {
-  font-size: 90px;
+  font-size: 79px;
   font-weight: 700;
   letter-spacing: 0.04em;
   color: var(--color-golden);
   text-transform: uppercase;
   line-height: 117px;
   font-family: var(--font-base);
+}
+
+@media screen and (max-width: 375px) {
+  .app__wrapper_info h1 {
+    font-size: 76px;
+  }
 }
